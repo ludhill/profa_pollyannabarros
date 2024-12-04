@@ -85,12 +85,21 @@
               }
             ],
             "styles": [
+			  "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
-            ],
-            "scripts": []
+            ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy", 
+		  "options":{
+			  "baseHref": "/profa_pollyannabarros/"
+		  }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5db06f0b-05e5-48c3-a6bf-36bafc827366"
   }
 }
