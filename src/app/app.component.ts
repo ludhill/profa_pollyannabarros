@@ -12,4 +12,5 @@ import { TasksComponent } from "./components/tasks/tasks.component";
 })
 export class AppComponent {
   title = 'profa_pollyanna_portifolio';
+  colorText: string = "Goldenrod";
 }

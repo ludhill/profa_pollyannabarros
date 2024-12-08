@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .blog-post-meta {
   margin-bottom: 1.25rem;
-  color: #727272;
+  color: #595656;
 }
 
 
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 :root{
 	--primary-color: red;
 	--text-color: #f4f4f4;
-	--cor-de-fundo:#a28460;
+	--cor-de-fundo:#000000;
 }
 body{
 	body-bg: var(--cor-de-fundo)!important;
