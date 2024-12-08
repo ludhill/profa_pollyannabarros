@@ -1,4 +1,3 @@
-/* You can add global styles to this file, and also import other style files *
 .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -12,88 +11,8 @@
           font-size: 3.5rem;
         }
       }
-
-      .b-example-divider {
-        width: 100%;
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-      }
-
-      .bd-mode-toggle {
-        z-index: 1500;
-      }
-
-      .bd-mode-toggle .dropdown-menu .active .bi {
-        display: block !important;
-      }
-	  */
-	  /* GLOBAL STYLES
--------------------------------------------------- */
-
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
 	  
-/* Padding below the footer and lighter body text */
+/* Espaçamento entre o conteudo e o rodapé */
 
 body {
   padding-top: 3rem;
@@ -102,20 +21,23 @@ body {
 }
 
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
+/* Personalizar o carrossel
+---------------------
+Referencia: view-source:https://getbootstrap.com/docs/5.3/examples/carousel/
 
-/* Carousel base class */
+----------------------------- */
+
+/* carrossel base */
 .carousel {
   margin-bottom: 4rem;
 }
-/* Since positioning the image, we need to help out the caption */
+/* Desde o posicionamento da imagem, precisamos ajudar na legenda */
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
+/* Declarar alturas devido ao posicionamento do elemento img */
 .carousel-item {
   height: 32rem;
 }
@@ -128,10 +50,10 @@ body {
 }
 
 
-/* MARKETING CONTENT
+/* CONTEÚDO DE MARKETING
 -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
+/* Alinhe o texto centralizado dentro das três colunas abaixo do carrossel */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -147,14 +69,14 @@ body {
 /* rtl:end:ignore */
 
 
-/* Featurettes
+/* Curiosidades
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5rem 0; /* Espace o Bootstrap <hr> mais */
 }
 
-/* Thin out the marketing headings */
+/* Diminua os títulos de marketing */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
@@ -163,11 +85,11 @@ body {
 }
 
 
-/* RESPONSIVE CSS
+/* CSS RESPONSIVO
 -------------------------------------------------- */
 
 @media (min-width: 40em) {
-  /* Bump up size of carousel content */
+  /* Aumentar o tamanho do conteúdo do carrossel */
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
@@ -184,3 +106,80 @@ body {
     margin-top: 7rem;
   }
 }
+
+
+/*blog*/
+/*referecia: https://getbootstrap.com/docs/5.3/examples/blog/blog.css*/
+/* stylelint-disable @stylistic/selector-list-comma-newline-after */
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+
+/*teste de variavel de cor*/
+:root{
+	--primary-color: red;
+	--text-color: #f4f4f4;
+	--cor-de-fundo:#a28460;
+}
+body{
+	body-bg: var(--cor-de-fundo)!important;
+}
+
+
+/* Sobrescrever o breakpoint sm /
+@media (min-width: 500px) {
+    .container-sm {
+        max-width: 500px;
+    }
+    .col-sm-1 {
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+    .col-sm-2 {
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    /* Continue para todas as colunas e outras classes sm necessárias 
+}
+}
+*/
+
+/* Estilizando qualquer classe que dependa do breakpoint SM */
+/*css*/
+/* Sobrescrevendo o breakpoint SM */

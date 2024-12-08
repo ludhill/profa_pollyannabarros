@@ -1,0 +1,22 @@
+{
+    "tasks":[
+        {
+            "id":1,
+            "tarefa":"Graduada em Letras e Pedagogia.",
+            "categoria": "Faculdade",
+            "concluido": false
+        },
+        {
+            "id":2,
+            "tarefa":"Mestra em Estudos da Linguagem.",
+            "categoria": "Trabalho",
+            "concluido": false
+        },
+        {
+            "id":3,
+            "tarefa":"Doutoranda em Linguística Aplicada",
+            "categoria": "Faculdade",
+            "concluido": true
+        }
+    ]
+}

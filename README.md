@@ -3,9 +3,20 @@ portifolio para expor os serviços
 educacionais prestados pela Professora
 Pollyanna Barros.
 
+Para funcionamento deste projeto requer 
+um entendimento dos componentes do bootstrap
+na sua versão 5.3, foi utilizado alguns exemplos 
+disponibilizados na própria pagina do framework.
+
+Foi utilizado a biblioteca angular-cli-ghpages
+conforme apresetado pelo Paulo Eduardo Melo em seu
+video no youtube acessado em 07/12/2024: 
+https://youtu.be/PbgVbCb3zuE?si=DPP_0khuoy58o13k
+com objetivo de tornar o deploy mais ágil!
+
+
 Desenvolvedores:
 Lucas Denner
-João Pedro
 
 # ProfaPollyannaPortifolio
 
